@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>#H20/21</title>
+  <title>#H2021</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="h2021 hora2021" name="keywords">
   <meta content="iniciativa global para afrontar el Covid-19" name="description">
@@ -30,14 +30,9 @@
   <!-- =======================================================
     
   ======================================================= -->
-  <style>
-    /* Always set the map height explicitly to define the size of the div
-     * element that contains the map. */
-    #map {
-      height: 100%;
-    }
-  </style>
+  <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
   <script src="js/custom.js"></script>
+    
 </head>
 
 <body>
@@ -59,10 +54,10 @@
           <li class="menu-active"><a href="#intro">Home</a></li>
           <li><a href="#about">#H2021</a></li>
           <li><a href="#speakers">¿Como Esto Ayuda?</a></li>
+          <li><a href="#venue">Participa</a></li>
           <li><a href="#schedule">Calendario</a></li>
-          <li><a href="#venue">Lugar</a></li>
           <!-- <li><a href="#gallery">Gallery</a></li> -->
-          <li><a href="#sponsors">Sponsors</a></li>
+          <!-- <li><a href="#sponsors">Sponsors</a></li> -->
           <li><a href="#contact">Contacto</a></li>
           <li><div class="social">
             <a href=""><i class="fa fa-twitter"></i></a>
@@ -70,6 +65,7 @@
             <a href="https://www.instagram.com/lahora2021"><i class="fa fa-instagram"></i></a>
             <a href="https://www.instagram.com/thehour2021"><i class="fa fa-instagram"></i></a>
           </div></li>
+          <li><a href="#" id="translate" data-text="English,Español" data-file="es,en" data-index="1">English</a></li>
         </ul>
       </nav><!-- #nav-menu-container -->
     </div>
@@ -80,11 +76,11 @@
   ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0">La inicitiva<br><span>Global</span> de reencontrarse</h1>
-      <p class="mb-4 pb-0">Todos los sabados de #20/21 horas en tu casa</p>
+      <h1 class="mb-4 pb-0" data-lang="intro-titulo">La inicitiva<br><span>Global</span> de reencontrarse</h1>
+      <p class="mb-4 pb-0" data-lang="intro-sub-titulo">Todos los sabados de 20:00 21:00 horas en tu casa</p>
       <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
-      <a href="#about" class="about-btn scrollto">Sobre la iniciativa</a>
+      <a href="#about" class="about-btn scrollto" data-lang="intro-buton">Sobre la iniciativa</a>
     </div>
   </section>
 
@@ -219,6 +215,115 @@
       </div>
     </section>
 
+     <!--==========================
+      Venue Section
+    ============================-->
+    <section id="venue" class="wow fadeInUp">
+
+      <div class="container-fluid">
+
+        <div class="section-header">
+          <h2>Como Participar</h2>
+          <p>Te invitamos a que cada sábado entre las 20 y las 21 horas salgas a tu patio, balcón, jardín,  terraza, azotea, cualquiera sea tu vínculo con el exterior (manteniendo tu espacio). La idea es disfrutar ese sentimiento de comunidad, darnos cuenta que hay más gente alrededor, riéndonos, escuchándonos, acompañándonos en este momento. <br>
+        </div>
+
+        <div class="row no-gutters">
+          <!-- <div class="col-lg-6 venue-map">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe> 
+            <div id="map"></div>
+            <script>
+              
+            </script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOQJ8euJ_4yqLKrhdRX_LiiRv2_T_S2Ls&callback=initMap"
+            type="text/javascript"></script>
+          </div> -->
+
+          <div class="col-lg-12 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>EN TU CASA</h3>
+                <p> Invita a tu familia o a las personas que viven contigo! Haz una cena en la terraza, tómate un café, una cerveza , compartan algo para comer, lee un libro, juega cartas o simplemente siéntate y siente a tu comunidad. Cuando estábamos bien nunca los sentiste tan cerca, ahora están ahí, contigo. <br>
+             
+                Avisale a tus vecinos! Cuelga de tu balcón, o en ventana un cartel #H2021.ORG, de modo que tus vecinos se sumen a esta cruzada! Sube a tus redes sociales imágenes con el #H2021 y volvamos a encontrarnos.  Démosle la vuelta a esta pandemia, podemos generar alegría y esperanza en estos duros momentos. Hagamos que lo único viral que perdure en todo el mundo sea el amor y la humanidad.
+                </p>>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="container-fluid venue-gallery-container">
+        <div class="row no-gutters">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="venue-gallery">
+              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
+                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
     <!--==========================
       Schedule Section
     ============================-->
@@ -243,8 +348,7 @@
           </li>
         </ul>
 
-        <h3 class="sub-heading">Voluptatem nulla veniam soluta et corrupti consequatur neque eveniet officia. Eius
-          necessitatibus voluptatem quis labore perspiciatis quia.</h3>
+        <h3 class="sub-heading">Si deseas que tu actividad (gratuito) contactate con nosotros</h3>
 
         <div class="tab-content row justify-content-center">
 
@@ -481,114 +585,7 @@
     <!--==========================
       Venue Section
     ============================-->
-    <section id="venue" class="wow fadeInUp">
-
-      <div class="container-fluid">
-
-        <div class="section-header">
-          <h2>Donde se realiza</h2>
-          <p>Te invitamos a que cada sábado entre las 20 y las 21 horas salgas a tu patio, balcón, jardín,  terraza, azotea, cualquiera sea tu vínculo con el exterior (manteniendo tu espacio). La idea es disfrutar ese sentimiento de comunidad, darnos cuenta que hay más gente alrededor, riéndonos, escuchándonos, acompañándonos en este momento. <br>
- 
-            Invita a tu familia o a las personas que viven contigo! Haz una cena en la terraza, tómate un café, una cerveza , compartan algo para comer, lee un libro, juega cartas o simplemente siéntate y siente a tu comunidad. Cuando estábamos bien nunca los sentiste tan cerca, ahora están ahí, contigo. <br>
-             
-            Avisale a tus vecinos! Cuelga de tu balcón, o en ventana un cartel #H2021.ORG, de modo que tus vecinos se sumen a esta cruzada! Sube a tus redes sociales imágenes con el #H2021 y volvamos a encontrarnos.  Démosle la vuelta a esta pandemia, podemos generar alegría y esperanza en estos duros momentos. Hagamos que lo único viral que perdure en todo el mundo sea el amor y la humanidad.
-            </p>
-        </div>
-
-        <div class="row no-gutters">
-          <!-- <div class="col-lg-6 venue-map">
-             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0" allowfullscreen></iframe> 
-            <div id="map"></div>
-            <script>
-              
-            </script>
-            <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBOQJ8euJ_4yqLKrhdRX_LiiRv2_T_S2Ls&callback=initMap"
-            type="text/javascript"></script>
-          </div> -->
-
-          <div class="col-lg-12 venue-info">
-            <div class="row justify-content-center">
-              <div class="col-11 col-lg-8">
-                <h3>EN TU CASA</h3>
-                <p>Iste nobis eum sapiente sunt enim dolores labore accusantium autem. Cumque beatae ipsam. Est quae sit qui voluptatem corporis velit. Qui maxime accusamus possimus. Consequatur sequi et ea suscipit enim nesciunt quia velit.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="container-fluid venue-gallery-container">
-        <div class="row no-gutters">
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/1.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/1.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/2.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/2.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/3.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/3.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/4.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/4.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/5.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/5.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/6.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/6.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/7.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-4">
-            <div class="venue-gallery">
-              <a href="img/venue-gallery/8.jpg" class="venobox" data-gall="venue-gallery">
-                <img src="img/venue-gallery/8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </section>
+    
 
     <!--==========================
       Hotels Section
@@ -623,7 +620,7 @@
     <!--==========================
       Sponsors Section
     ============================-->
-    <section id="sponsors" class="section-with-bg wow fadeInUp">
+    <!-- <section id="sponsors" class="section-with-bg wow fadeInUp">
 
       <div class="container">
         <div class="section-header">
@@ -684,7 +681,7 @@
 
       </div>
 
-    </section>
+    </section> -->
 
     <!--==========================
       F.A.Q Section
@@ -937,7 +934,7 @@
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
+  <!-- <script src="lib/jquery/jquery.min.js"></script> -->
   <script src="lib/jquery/jquery-migrate.min.js"></script>
   <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
@@ -946,6 +943,7 @@
   <script src="lib/wow/wow.min.js"></script>
   <script src="lib/venobox/venobox.min.js"></script>
   <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
 
   <!-- Contact Form JavaScript File -->
   <script src="contactform/contactform.js"></script>
