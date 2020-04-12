@@ -105,3 +105,10 @@
                   });
                 };  
               });
+              $.ajax({
+                url:'country.php',
+                success: function(data){
+                  $(selector).attr('data-index', data);
+                  startLang( $(selector) );
+                }
+              });
