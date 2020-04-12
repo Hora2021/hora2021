@@ -17,13 +17,16 @@ jQuery(document).ready(function( $ ) {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#header-logo').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
+      $('#header-logo').addClass('header-scrolled');
     }
   });
 
   if ($(window).scrollTop() > 100) {
     $('#header').addClass('header-scrolled');
+    $('#header-logo').addClass('header-scrolled');
   }
 
   // Real view height for mobile devices
