@@ -17,10 +17,10 @@ jQuery(document).ready(function( $ ) {
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
-      $('#header-logo').addClass('header-scrolled');
+      $('#header').addClass('header-scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
-      $('#header-logo').addClass('header-scrolled');
+      $('#header').removeClass('header-scrolled');
     }
   });
 

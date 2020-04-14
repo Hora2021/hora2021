@@ -34,3 +34,6 @@
     font-family: roboto-slab-thin;
     src: url(../font/RobotoSlab-Thin.woff);
 }
+#header-logo{       
+    background-color:#07193af8;      
+}
