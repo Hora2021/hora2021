@@ -521,6 +521,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #e65d56;
 }
 
+#intro span {
+  color: #e65d56;
+}
+
 #intro p {
   color: #ebebeb;
   font-weight: 700;
