@@ -37,3 +37,17 @@
 #header-logo{       
     background-color:#07193af8;      
 }
+.nav-mod {
+    margin-left: -70x;
+    margin-right: -100px;
+}
+.nav-logo {
+    margin-right: -22px;
+}
+.container-mod{
+    padding-right: 13.5%; 
+    margin-left: 0px
+}
+.speaker-mod{
+    display:none;
+}
