@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
 /*
   Theme Name: TheEvent
   Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
@@ -17,6 +19,8 @@ body {
 
 a {
   color: #e65d56;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -80,6 +84,8 @@ h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
+  -webkit-transition: background 0.5s ease-in-out;
+  -o-transition: background 0.5s ease-in-out;
   transition: background 0.5s ease-in-out;
 }
 
@@ -151,6 +157,8 @@ h6 {
   left: 0;
   top: 0;
   right: 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 997;
 }
@@ -161,6 +169,8 @@ h6 {
   background: #07193af8;
   height: 70px;
   padding: 15px 0;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
 }
 
@@ -291,6 +301,8 @@ h6 {
   left: 0;
   background-color: #e65d56;
   visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -307,6 +319,8 @@ h6 {
   padding: 7px 22px;
   border-radius: 50px;
   border: 2px solid #e65d56;
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
   font-weight: 500;
   margin-left: 8px;
@@ -327,18 +341,23 @@ h6 {
 .nav-menu ul {
   margin: 4px 0 0 0;
   padding: 10px;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  -webkit-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+          box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   background: #fff;
   border-radius: 3px;
 }
 
 .nav-menu ul li {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
 .nav-menu ul li a {
   padding: 10px;
   color: #060c22;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   display: block;
   font-size: 13px;
@@ -367,6 +386,8 @@ h6 {
   background: none;
   font-size: 24px;
   display: none;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
   outline: none;
   cursor: pointer;
@@ -388,6 +409,8 @@ h6 {
   left: -260px;
   width: 260px;
   overflow-y: auto;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -534,6 +557,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn {
   width: 94px;
   height: 94px;
+  background: -o-radial-gradient(#e65d56 50%, rgba(101, 111, 150, 0.15) 52%);
   background: radial-gradient(#e65d56 50%, rgba(101, 111, 150, 0.15) 52%);
   border-radius: 50%;
   display: block;
@@ -547,13 +571,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
+  -ms-transform: translateX(-40%) translateY(-50%);
+      transform: translateX(-40%) translateY(-50%);
   width: 0;
   height: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
   border-left: 15px solid #fff;
   z-index: 100;
+  -webkit-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -o-transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
   transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
@@ -583,7 +610,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #intro .play-btn:hover::after {
   border-left: 15px solid #e65d56;
   -webkit-transform: scale(20);
-  transform: scale(20);
+  -ms-transform: scale(20);
+      transform: scale(20);
 }
 
 #intro .play-btn:hover::before {
@@ -592,7 +620,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-40%) translateY(-50%);
-  transform: translateX(-40%) translateY(-50%);
+  -ms-transform: translateX(-40%) translateY(-50%);
+      transform: translateX(-40%) translateY(-50%);
   width: 0;
   height: 0;
   border: none;
@@ -613,6 +642,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 12px 32px;
   border-radius: 50px;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
@@ -721,6 +752,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   text-align: center;
   padding-top: 10px;
+  -webkit-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+  -o-transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
@@ -839,6 +872,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #schedule .tab-pane {
+  -webkit-transition: ease-in-out .2s;
+  -o-transition: ease-in-out .2s;
   transition: ease-in-out .2s;
 }
 
@@ -846,6 +881,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-bottom: 1px solid #cad4f6;
   padding-top: 15px;
   padding-bottom: 15px;
+  -webkit-transition: background-color ease-in-out 0.3s;
+  -o-transition: background-color ease-in-out 0.3s;
   transition: background-color ease-in-out 0.3s;
 }
 
@@ -870,8 +907,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #schedule .schedule-item .speaker img {
   height: 100%;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
   margin-left: 50%;
+  -webkit-transition: all ease-in-out 0.3s;
+  -o-transition: all ease-in-out 0.3s;
   transition: all ease-in-out 0.3s;
 }
 
@@ -952,12 +992,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #venue .venue-gallery img {
+  -webkit-transition: all ease-in-out 0.4s;
+  -o-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
 }
 
 #venue .venue-gallery:hover img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
@@ -976,7 +1019,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #hotels .hotel:hover .hotel-img img {
   -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -ms-transform: scale(1.1);
+      transform: scale(1.1);
 }
 
 #hotels .hotel-img {
@@ -985,6 +1029,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #hotels .hotel-img img {
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }
 
@@ -1060,7 +1106,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery .gallery-carousel .center {
   border: 6px solid #e65d56;
   margin: -10px;
-  box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
   padding: 4px;
   background: #fff;
   z-index: 1;
@@ -1100,10 +1147,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #sponsors .sponsor-logo:hover img {
   -webkit-transform: scale(1.2);
-  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+      transform: scale(1.2);
 }
 
 #sponsors img {
+  -webkit-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
@@ -1202,6 +1252,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
   background: #e65d56;
   color: #fff;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
   outline: none;
   font-size: 14px;
@@ -1223,12 +1275,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 #buy-tickets .card {
   border: none;
   border-radius: 5px;
+  -webkit-transition: all  0.3s ease-in-out;
+  -o-transition: all  0.3s ease-in-out;
   transition: all  0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  -webkit-box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+          box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
 }
 
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  -webkit-box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+          box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
 }
 
 #buy-tickets .card hr {
@@ -1259,6 +1315,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
   background-color: #e65d56;
   border: 0;
@@ -1278,6 +1336,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 15px;
   border-radius: 50px;
   padding: 10px 40px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
   transition: all 0.2s;
   background-color: #e65d56;
   border: 0;
@@ -1374,7 +1434,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .form textarea {
   padding: 10px 14px;
   border-radius: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   font-size: 15px;
 }
 
@@ -1383,6 +1444,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: 0;
   padding: 10px 40px;
   color: #fff;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
   border-radius: 50px;
   cursor: pointer;
@@ -1447,6 +1510,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   width: 36px;
   height: 36px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -1523,6 +1588,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 6px 0;
   text-align: center;
   color: #fff;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   cursor: pointer;
 }
@@ -1600,6 +1667,8 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: #07193af2;
     height: 70px;
     padding: 15px 0;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
     transition: all 0.5s;
   }
 
