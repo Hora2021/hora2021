@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow: 
+Disallow: /test
+
+Sitemap: https://h2021.org/sitemap.xml

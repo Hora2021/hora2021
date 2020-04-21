@@ -185,12 +185,15 @@ h6 {
   text-transform: uppercase;
 }
 
-#header #logo h1 span {
+#header  h1 span {
   color: #e65d56;
 }
+.nav-word span {
+  color: #fff;
+}
 
-#header #logo h1 a,
-#header #logo h1 a:hover {
+#header  h1 a,
+#header  h1 a:hover {
   color: #fff;
 }
 
@@ -1636,6 +1639,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   #schedule .sub-heading {
     width: 75%;
   }
+  .nav-word{
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1694,6 +1700,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
   #schedule .nav-tabs a {
     padding: 8px 60px;
+  }
+  .nav-logo {
+    display: none;
   }
 }
 

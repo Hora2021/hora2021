@@ -125,4 +125,13 @@ $(document).ready(function () {
       }          
   });
 });
-            
+$(document).ready(function (){
+    $("powered-by").css("display", "none")
+    $(".estitle").css("display", "none !important")
+    $(".developed-by").css("display", "none")
+    
+
+  }
+  );
+  $('.embedsocial-in-album-iframe').contents().find(".estitle")
+  .append($("style='display: none'"));
